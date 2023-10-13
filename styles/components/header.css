@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 80%;
+    height: fit-content;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.connection {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    flex-direction: row;
+    text-align: right;
+    font-size: 1.1vw;
+}
+
+.email a {
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #607CE6;
+}
+
+
+.phone a {
+    font-size: 1.3vw;
+    color: #607CE6;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo {
+    width: 14%;
+    height: fit-content;
+    user-select: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    user-select: none;
+}
+
+.nav-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.nav-half {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 1.2vw;
+}
+
+.nav-info p:hover {
+    color: #607CE6;
+    transition: all 0.2s ease-in-out;
+}
+
+.call_me {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2vw;
+    color: #607CE6;
+}
+
+.phone-img {
+    display: flex;
+    width: 9%;
+}

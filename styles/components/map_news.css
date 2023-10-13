@@ -1,0 +1,78 @@
+.map {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+}
+
+.map h1 {
+    font-size: 3vw;
+}
+
+.map-russia {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: fit-content;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.news h1 {
+    font-size: 3vw;
+}
+
+.news-carding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    height: fit-content;
+    background: rgb(232, 232, 232);
+}
+
+.news-text {
+    font-size: 1.3vw;
+    width: 95%;
+    height: fit-content;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: fit-content;
+}
+
+.news-card img {
+    user-select: none;
+    width: 100%;
+}
+
+.read-more {
+    font-size: 1vw;
+    color:#607CE6;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    color: #888888;
+    transition: all 0.3s ease-in-out;
+}
+
+.date {
+    font-size: 1vw;
+    color: #888888;
+}
