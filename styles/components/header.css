@@ -67,7 +67,12 @@
     font-size: 1.2vw;
 }
 
-.nav-info p:hover {
+.nav-half p {
+    transition: all 0.2s ease-in-out;
+    color: #000;
+}
+
+.nav-half p:hover {
     color: #607CE6;
     transition: all 0.2s ease-in-out;
 }

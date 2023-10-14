@@ -37,12 +37,13 @@
     font-size: 1vw;
     line-height: 34px;
     list-style-type: none;
+    transition: all 0.2s ease-in-out;
 }
 
 .list p:hover {
     cursor: pointer;
     color: #607CE6;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .privacy-policy p {

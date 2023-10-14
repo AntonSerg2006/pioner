@@ -65,11 +65,12 @@
     font-size: 1vw;
     color:#607CE6;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .read-more:hover {
     color: #888888;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .date {
